@@ -53,7 +53,7 @@ module.exports = {
       ignore: [],
       expand: {
         trigger: 'click',
-        clickModeDefaultOpen: true
+        clickModeDefaultOpen: false
       },
       customClass: 'customClass'
     }]
