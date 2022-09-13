@@ -47,7 +47,7 @@ module.exports = {
     }
   },
   base: '/vuepress',
-  plugins: [
+  plugins: [ //右侧导航
     ['vuepress-plugin-right-anchor', {
       showDepth: 1,
       ignore: [],
