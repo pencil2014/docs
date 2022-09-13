@@ -46,7 +46,7 @@ module.exports = {
       }
     }
   },
-  base: '/vuepress/',
+  base: '/vuepress/', //部署的目录，根目录就用/,其他就用目录名称
   plugins: [ //右侧导航
     ['vuepress-plugin-right-anchor', {
       showDepth: 1,
